@@ -1,3 +1,2 @@
-'''bat
-irm https://massgrave.dev/get | iex
-'''
+'''bat  
+irm https://massgrave.dev/get | iex  
