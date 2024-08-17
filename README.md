@@ -1,4 +1,1 @@
-'''python
-
-import re
-'''
+'''python  import re'''
