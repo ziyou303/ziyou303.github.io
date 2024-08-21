@@ -2,10 +2,17 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://pan.huang1111.cn/s/P6e66im">
-    <title>提示:密码为中考号前7位</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>密码提示</title>
+    <script>
+        function showPrompt() {
+            alert('密码是中考号前7位');
+            window.location.href = 'https://pan.huang1111.cn/s/P6e66im';
+        }
+    </script>
 </head>
-<body>
-    <p>如果没有自动跳转，请点击 <a href="https://pan.huang1111.cn/s/P6e66im">这里</a>.</p>
+<body onload="showPrompt()">
+    <h1>欢迎访问</h1>
+    <p>请注意查看提示信息。</p>
 </body>
 </html>
