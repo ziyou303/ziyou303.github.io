@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>激活Windows</title>
+</head>
+<body>
+    <h1>怎么激活？我也不知道</h1>
+    <txt>irm https://massgrave.dev/get | iex<txt><br>
+    <button id="copyButton">复制代码</button>
+
+    <script>
+        document.getElementById('copyButton').addEventListener('click', function() {
+            const textToCopy = 'irm https://massgrave.dev/get | iex';
+            navigator.clipboard.writeText(textToCopy)
+                .then(() => {
+                    alert('已复制指令');
+                })
+                .catch(err => {
+                    console.error('复制失败: ', err);
+                });
+        });
+    </script>
+</body>
+</html>
