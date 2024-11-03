@@ -21,5 +21,26 @@
 </head>
 <body>
     <button onclick="window.location.href='https://ziyou303.github.io/Windows/Windows10LTSC/修复/patch.zip'">下载输入法修复程序</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows版本转换</title>
+</head>
+<body>
+    <h1>从Windows10LTSC企业版到Windows10LTSC企业版lot</h1>
+    <txt>密匙:QPM6N-7J2WJ-P88HH-P3YRH-YY74H<txt><br>
+    <button id="copyButton">复制密匙</button>
+
+    <script>
+        document.getElementById('copyButton').addEventListener('click', function() {
+            const textToCopy = 'QPM6N-7J2WJ-P88HH-P3YRH-YY74H';
+            navigator.clipboard.writeText(textToCopy)
+                .then(() => {
+                    alert('快去激活吧!~');
+                })
+                .catch(err => {
+                    console.error('复制失败: ', err);
+                });
+        });
+    </script>
 </body>
 </html>
