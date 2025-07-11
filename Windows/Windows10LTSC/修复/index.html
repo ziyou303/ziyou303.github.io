@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>补丁</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='https://ziyoustudio.cn/Windows/Windows10LTSC/修复/修复包.zip'">下载修复包</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows版本转换</title>
+</head>
+<body>
+    <h1>从Windows10LTSC企业版到Windows10LTSC企业版lot</h1>
+    <txt>密匙:QPM6N-7J2WJ-P88HH-P3YRH-YY74H<txt><br>
+    <button id="copyButton">复制密匙</button>
+
+    <script>
+        document.getElementById('copyButton').addEventListener('click', function() {
+            const textToCopy = 'QPM6N-7J2WJ-P88HH-P3YRH-YY74H';
+            navigator.clipboard.writeText(textToCopy)
+                .then(() => {
+                    alert('快去激活吧!~');
+                })
+                .catch(err => {
+                    console.error('复制失败: ', err);
+                });
+        });
+    </script>
+</body>
+</html>
